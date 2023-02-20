@@ -1,5 +1,3 @@
-# PROJECT-4
-Unit 4: Photo Scavenger Hunt
 Overview
 You will be completing a scavenger hunt app. This app has a list which requires the user to attach photos based on the task. After attaching the photo to a task, the app shows the user where that photo was taken in a map.
 
@@ -52,4 +50,4 @@ Is your repository private with codepathreview as a collaborator?
 
 If you answered yes to all of these questions, you are ready to submit!
 
-Look for the "Submit" button at the top of this page
+Look for the "Submit" button at the top of this page.
