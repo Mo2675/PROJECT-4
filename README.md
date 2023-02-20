@@ -1,53 +1,58 @@
-Overview
-You will be completing a scavenger hunt app. This app has a list which requires the user to attach photos based on the task. After attaching the photo to a task, the app shows the user where that photo was taken in a map.
+# Project 4 - *Photo Savenger hunt *
 
-Screenshot of app with core features implemented
+Submitted by: **Mohamad Amroush**
 
-🎯 Goals
-By the end of this assignment you will be able to...
+**Name of your app** is an app that ... [TODO] 
 
-Use PHPicker to select photos and get photo data from the photo library
-Use MapKit to display custom annotations on a map
-Required Features
-Task List Screen
-Users should be able to view a list of tasks to be completed
-For simplicity, you can create your own hardcoded Task data models
-Users should be able to tap into a task and be navigated to the task detail screen
-Tasks that have been completed should be visually distinguished (see task detail view)
-Task Detail Screen
-Users should be able to view the title, description, and possibly the attached photo of the task
-Users should be able to attach a photo to the task
-Doing this marks the task as completed with a visual indicator and shows the location of the photo inside of the map
-The completed indicator should also be visible in the task list
-After completing the task on detail view, the list page should reflect it was completed
-Stretch Features
-Give the user the option to open the camera instead of choosing from the photo library
-Use the UIImagePickerController class to show the camera. You will need to build to device in order to test this.
-Note: You can also use this class to open the photo library. However that will be deprecated soon. You should only be using UIImagePickerController to present the camera.
-Resources
-MapKit
-PHPicker
-💡 Hints
-I cannot get the location data from a photo.
+Time spent: **24** hours spent in total
 
-Make sure you're selecting a photo that actually has location metadata. Also, make sure that the user has granted full access to the photo library.
-My app crashes when presenting PHPickerViewController
+## Required Features
 
-Make sure to include the NSCameraUsageDescription key in your app’s Info.plist file similar to what was done in lab.
-📬 Submitting Your Project
-📄 PROJECT 4 README TEMPLATE
-🔗 Submitting Coursework step-by-step instructions
-✔ Submission Checklist
-Check if you're ready to submit with the following questions:
-Does your app have all of the Required Features?
-Can you see your latest code on GitHub?
-Does your README use the provided README TEMPLATE?
-It is important that you follow the same layout as the README template so that we can easily access your work.
-Be sure to check off each feature that is implemented in your submission by changing [ ] to [x].
-Did you include a GIF (or Video) walkthrough? (NOT only screenshots!)
-When going to your main repository page on GitHub, can you see your README and does your GIF walkthrough start playing?
-Is your repository private with codepathreview as a collaborator?
+The following **required** functionality is completed:
 
-If you answered yes to all of these questions, you are ready to submit!
+- [ ] App displays list of hard-coded tasks
+- [ ] When a task is tapped it navigates the user to a task detail view
+- [ ] When user adds photo to complete the tasks, it marks the task as complete
+- [ ] When adding photo of task, the location is added
+- [ ] User returns to home page (list of tasks) and the status of your task is updated to complete
+ 
+The following **optional** features are implemented:
 
-Look for the "Submit" button at the top of this page.
+- [ ] User can launch camera to snap a picture	
+
+The following **additional** features are implemented:
+
+- [ ] List anything else that you can get done to improve the app functionality!
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...  
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
+
+## Notes
+
+Describe any challenges encountered while building the app.
+
+## License
+
+    Copyright [2023] [Mohamad Amroush]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
