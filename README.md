@@ -10,19 +10,19 @@ Time spent: **24** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] App displays list of hard-coded tasks
-- [ ] When a task is tapped it navigates the user to a task detail view
-- [ ] When user adds photo to complete the tasks, it marks the task as complete
-- [ ] When adding photo of task, the location is added
-- [ ] User returns to home page (list of tasks) and the status of your task is updated to complete
+- [x ] App displays list of hard-coded tasks
+- [x] When a task is tapped it navigates the user to a task detail view
+- [ x] When user adds photo to complete the tasks, it marks the task as complete
+- [x ] When adding photo of task, the location is added
+- [x ] User returns to home page (list of tasks) and the status of your task is updated to complete
  
 The following **optional** features are implemented:
 
-- [ ] User can launch camera to snap a picture	
+- [x ] User can launch camera to snap a picture	
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [ x] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
